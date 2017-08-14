@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridView
+        android:id="@+id/Gv_noallordersfragment_nomoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffebeb">
+    </GridView>
+    <GridView
+        android:id="@+id/Gv_noallordersfragment_nogive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffebeb">
+    </GridView>
+    <GridView
+        android:id="@+id/Gv_noallordersfragment_noget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffebeb">
+    </GridView>
+    <GridView
+        android:id="@+id/Gv_noallordersfragment_noestimate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffebeb">
+    </GridView>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fde3e3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffabab"
+        android:text="所有宝贝"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="18dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="5dp"/>
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:id="@+id/GvfoodGridView"
+        android:numColumns="2"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:scrollbars="none">
+
+    </GridView>
+
+</LinearLayout>
+
